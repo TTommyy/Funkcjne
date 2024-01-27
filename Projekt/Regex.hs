@@ -1,4 +1,6 @@
 -- Regex.hs
+module Regex(generateSetFromRegex) where
+
 import Data.Char (ord, chr, isAlphaNum, isAlpha, isDigit, isSpace)
 import Data.List (elemIndex)
 import Data.List.Split (splitOn)
